@@ -13,6 +13,12 @@ export async function DELETE(
     return NextResponse.json({ error: "Invalid ID" }, { status: 400 });
   }
 
+  const current = await db.select().from(todo).where(eq(todo.id, id)).limit(1);
+  const existingTodo = current[0];
+
+  if (!existingTodo) {
+    return NextResponse.json({ error: "Todo not found" }, { status: 404 });
+  }
   await db.delete(todo).where(eq(todo.id, id));
 
   return NextResponse.json({ message: "Todo deleted!" }, { status: 200 });
@@ -29,14 +35,13 @@ export async function PATCH(
     return NextResponse.json({ error: "Invalid input" }, { status: 400 });
   }
 
-  try {
-    await db.update(todo).set({ text }).where(eq(todo.id, id));
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error("Error editing todo:", error);
-    return NextResponse.json(
-      { error: "Something went wrong" },
-      { status: 500 }
-    );
+  const current = await db.select().from(todo).where(eq(todo.id, id)).limit(1);
+  const existingTodo = current[0];
+
+  if (!existingTodo) {
+    return NextResponse.json({ error: "Todo not found" }, { status: 404 });
   }
+
+  await db.update(todo).set({ text }).where(eq(todo.id, id));
+  return NextResponse.json({ success: "Todo Update" }, { status: 200 });
 }
