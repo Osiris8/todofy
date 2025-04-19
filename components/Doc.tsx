@@ -39,7 +39,7 @@ export default function Doc() {
               <div className="mockup-code w-full">
                 <pre data-prefix="$">
                   <code>
-                    {"{"} "text": "Hello World" {"}"}
+                    {"{"} &quot;text&quot;: &quot;Hello World&quot; {"}"}
                   </code>
                 </pre>
               </div>
@@ -83,8 +83,8 @@ export default function Doc() {
               <div className="mockup-code w-full">
                 <pre data-prefix="$">
                   <code>
-                    {"{"} "text": "Update my todo list with my todo list ID"{" "}
-                    {"}"}
+                    {"{"} &quot;text&quot;: &quot;Update my todo list with my
+                    todo list ID&quot; {"}"}
                   </code>
                 </pre>
               </div>
