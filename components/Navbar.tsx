@@ -1,3 +1,5 @@
+import { Github } from "lucide-react";
+
 export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -40,7 +42,10 @@ export default function Navbar() {
         <a className="btn btn-ghost text-xl">Todofy</a>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-primary">Primary</button>
+        <Github className="mr-4" />
+        <a href="mailto:miganosiris8@gmail.com" className="btn btn-primary">
+          Primary
+        </a>
       </div>
     </div>
   );
