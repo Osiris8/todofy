@@ -11,7 +11,7 @@ export default function Navbar() {
           <Github className="mr-4" />
         </a>
         <a href="mailto:miganosiris8@gmail.com" className="btn btn-primary">
-          Primary
+          Contact me
         </a>
       </div>
     </div>
