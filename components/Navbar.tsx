@@ -42,7 +42,9 @@ export default function Navbar() {
         <a className="btn btn-ghost text-xl">Todofy</a>
       </div>
       <div className="navbar-end">
-        <Github className="mr-4" />
+        <a href="https://github.com/Osiris8/todofy" target="__blanck">
+          <Github className="mr-4" />
+        </a>
         <a href="mailto:miganosiris8@gmail.com" className="btn btn-primary">
           Primary
         </a>
