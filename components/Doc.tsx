@@ -30,8 +30,11 @@ export default function Doc() {
             <li>Method : POST</li>
             <li>
               Url :{" "}
-              <a href="https://insomnia.rest/" className="link link-primary">
-                https://insomnia.rest/
+              <a
+                href="https://todofy-omega.vercel.app/"
+                className="link link-primary"
+              >
+                https://todofy-omega.vercel.app/
               </a>
             </li>
             <li>
@@ -57,8 +60,11 @@ export default function Doc() {
             <li>METHOD : GET</li>
             <li>
               Url :
-              <a href="https://hoppscotch.io/" className="link link-primary">
-                https://insomnia.rest/
+              <a
+                href="https://todofy-omega.vercel.app/"
+                className="link link-primary"
+              >
+                https://todofy-omega.vercel.app/
               </a>
             </li>
           </ul>
@@ -74,8 +80,11 @@ export default function Doc() {
             <li>Method : PATCH</li>
             <li>
               Url :{" "}
-              <a href="https://insomnia.rest/" className="link link-primary">
-                https://insomnia.rest/your-todo-list-id
+              <a
+                href="https://todofy-omega.vercel.app/"
+                className="link link-primary"
+              >
+                https://todofy-omega.vercel.app/
               </a>
             </li>
             <li>
@@ -102,10 +111,10 @@ export default function Doc() {
             <li>METHOD : PATCH</li>
             <li>
               <a
-                href=" https://insomnia.rest/your-todo-list-id"
+                href=" https://todofy-omega.vercel.app/your-list-ID"
                 className="link link-primary"
               >
-                https://insomnia.rest/your-todo-list-id
+                https://todofy-omega.vercel.app/your-todo-list-id
               </a>
             </li>
           </ul>
@@ -121,10 +130,10 @@ export default function Doc() {
             <li>METHOD : DELETE</li>
             <li>
               <a
-                href=" https://insomnia.rest/your-todo-list-id"
+                href=" https://todofy-omega.vercel.app/your-todo-list-id"
                 className="link link-primary"
               >
-                https://insomnia.rest/your-todo-list-id
+                https://todofy-omega.vercel.app/your-todo-list-id
               </a>
             </li>
           </ul>
