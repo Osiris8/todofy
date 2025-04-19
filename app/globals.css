@@ -6,7 +6,7 @@
 }
 
 @plugin "daisyui" {
-  themes: light --lofi, dark --prefersdark;
+  themes: lofi --default, dark --prefersdark;
 }
 
 @theme inline {
