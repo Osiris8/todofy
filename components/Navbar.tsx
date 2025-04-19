@@ -40,7 +40,7 @@ export default function Navbar() {
         <a className="btn btn-ghost text-xl">Todofy</a>
       </div>
       <div className="navbar-end">
-        <a href="" className="button button-primary"></a>
+        <button className="btn btn-primary">Primary</button>
       </div>
     </div>
   );
