@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+@plugin "daisyui" {
+  themes: light --lofi, dark --prefersdark;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
