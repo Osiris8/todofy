@@ -31,10 +31,10 @@ export default function Doc() {
             <li>
               Url :{" "}
               <a
-                href="https://todofy-omega.vercel.app/"
+                href="https://todofy-omega.vercel.app/api/todo"
                 className="link link-primary"
               >
-                https://todofy-omega.vercel.app/
+                https://todofy-omega.vercel.app/api/todo
               </a>
             </li>
             <li>
@@ -61,10 +61,10 @@ export default function Doc() {
             <li>
               Url :
               <a
-                href="https://todofy-omega.vercel.app/"
+                href="https://todofy-omega.vercel.app/api/todo"
                 className="link link-primary"
               >
-                https://todofy-omega.vercel.app/
+                https://todofy-omega.vercel.app/api/todo
               </a>
             </li>
           </ul>
@@ -81,10 +81,10 @@ export default function Doc() {
             <li>
               Url :{" "}
               <a
-                href="https://todofy-omega.vercel.app/"
+                href="https://todofy-omega.vercel.app/api/todo/your-todo-list-id"
                 className="link link-primary"
               >
-                https://todofy-omega.vercel.app/
+                https://todofy-omega.vercel.app/api/todo/your-todo-list-id
               </a>
             </li>
             <li>
@@ -111,10 +111,10 @@ export default function Doc() {
             <li>METHOD : PATCH</li>
             <li>
               <a
-                href=" https://todofy-omega.vercel.app/your-list-ID"
+                href="https://todofy-omega.vercel.app/api/todo/toggle/your-todo-list-ID"
                 className="link link-primary"
               >
-                https://todofy-omega.vercel.app/your-todo-list-id
+                https://todofy-omega.vercel.app/api/todo/toggle/your-todo-list-ID
               </a>
             </li>
           </ul>
@@ -130,10 +130,10 @@ export default function Doc() {
             <li>METHOD : DELETE</li>
             <li>
               <a
-                href=" https://todofy-omega.vercel.app/your-todo-list-id"
+                href="https://todofy-omega.vercel.app/api/todo/your-todo-list-id"
                 className="link link-primary"
               >
-                https://todofy-omega.vercel.app/your-todo-list-id
+                https://todofy-omega.vercel.app/api/todo/your-todo-list-id
               </a>
             </li>
           </ul>
