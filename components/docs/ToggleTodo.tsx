@@ -2,7 +2,9 @@ export default function ToggleTodo() {
   return (
     <div className="collapse bg-base-100 border border-base-300">
       <input type="radio" name="my-accordion-1" defaultChecked />
-      <div className="collapse-title font-semibold">Toggle Todo List</div>
+      <div className="collapse-title font-semibold text-violet-500">
+        Toggle Todo List
+      </div>
       <div className="collapse-content text-sm">
         <p>Send request using your todo list ID</p>
         <ul className="list-disc ml-8">

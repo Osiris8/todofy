@@ -2,7 +2,9 @@ export default function CreateTodo() {
   return (
     <div className="collapse bg-base-100 border border-base-300">
       <input type="radio" name="my-accordion-1" defaultChecked />
-      <div className="collapse-title font-semibold">Create Todo List</div>
+      <div className="collapse-title font-semibold text-orange-500">
+        Create Todo List
+      </div>
       <div className="collapse-content text-sm">
         <p>Send request</p>
         <ul className="list-disc ml-8">
